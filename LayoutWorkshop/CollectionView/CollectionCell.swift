@@ -45,6 +45,16 @@ class CollectionCell: UICollectionViewCell {
         label1.heightAnchor.constraint(equalToConstant: 40).isActive = true
         
         self.contentView.bringSubviewToFront(label1)
+        
+        
+        //set up round image view
+        let profileImage = UIImage(named: "ProfilePic")
+        let profileImageView = UIImageView(image: profileImage)
+        
+        profileImageView.clipsToBounds = true
+        let profileImageViewHeight = profileImageView.frame.size.height
+        profileImageView.layer.cornerRadius = profileImageViewHeight/2
+        
   
     }
 

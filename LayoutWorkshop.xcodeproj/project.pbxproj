@@ -65,16 +65,32 @@
 			isa = PBXGroup;
 			children = (
 				212014D3232E66C2002778E4 /* AppDelegate.swift */,
-				212014E5232E6E0B002778E4 /* ChildViewController.swift */,
-				212014DC232E66C5002778E4 /* LaunchScreen.storyboard */,
-				212014D5232E66C2002778E4 /* Main1ViewController.swift */,
-				21C90640235BC33800EDCDFC /* CollectionView */,
-				212014E7232E72EE002778E4 /* Main2ViewController.swift */,
-				212014D7232E66C2002778E4 /* Main.storyboard */,
 				212014DA232E66C5002778E4 /* Assets.xcassets */,
 				212014DF232E66C5002778E4 /* Info.plist */,
+				21C90640235BC33800EDCDFC /* CollectionView */,
+				2178CA5623612D9900542ED4 /* Storyboard */,
+				2178CA5723612DD300542ED4 /* View Controllers */,
 			);
 			path = LayoutWorkshop;
+			sourceTree = "<group>";
+		};
+		2178CA5623612D9900542ED4 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				212014DC232E66C5002778E4 /* LaunchScreen.storyboard */,
+				212014D7232E66C2002778E4 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		2178CA5723612DD300542ED4 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				212014E5232E6E0B002778E4 /* ChildViewController.swift */,
+				212014D5232E66C2002778E4 /* Main1ViewController.swift */,
+				212014E7232E72EE002778E4 /* Main2ViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 		21C90640235BC33800EDCDFC /* CollectionView */ = {
